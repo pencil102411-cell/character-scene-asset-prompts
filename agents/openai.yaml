@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物场景资产提示词"
+  short_description: "角色设定卡、场景勘景与概念图写实化的图像提示词"
+  default_prompt: "使用 $character-scene-asset-prompts，根据我的角色或场景描述（或上传的参考图），输出可直接用于图像模型的中文提示词。"

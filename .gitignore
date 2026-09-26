@@ -1,0 +1,15 @@
+# 本地出图、客户参考图与临时文件不入库
+/output/
+/outputs/
+/tmp/
+/work/
+
+# 项目看板应放在用户自己的项目目录，不放在 skill 目录
+资产项目看板.md
+
+.env
+.env.*
+__pycache__/
+*.py[cod]
+Thumbs.db
+.DS_Store
