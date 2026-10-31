@@ -12,7 +12,7 @@
 | 四栏角色设定卡（古装 / 现代） | 面部大特写 + 正面全身（去头）+ 侧面全身（去头）+ 背面全身，一张直出；脸只出现一次，从构图上防换脸、防全身照小脸出油；八至九头身 |
 | 表情板 | 同一张脸的 6–8 格表情网格 |
 | 道具设定卡 | 左侧大主图 + 右侧 2–3 格局部微距特写，写清部件和使用痕迹 |
-| 场景概念图、空场景氛围图 | 前中后景分层、空气透视、环境侵蚀、光照时段 |
+| 场景概念图、空场景氛围图（外景 / 室内，古装 / 现代） | 外景分层与空气透视，室内纵深，古旧空间写侵蚀、在用空间写生活痕迹，自然光与现代人工光；可选氛围图或置景空间参考图 |
 | 概念图写实化 | 先诊断参考图的 CG 感来源，再写"保留什么、改变什么"的编辑式提示词 |
 
 只做静帧图像提示词，不做视频提示词、分镜、剧情或动作序列。本仓库只提供方法和提示词，不调用任何生成服务。
@@ -64,6 +64,10 @@ git clone https://github.com/pencil102411-cell/character-scene-asset-prompts.git
 ```
 
 ```text
+做一个都市短剧总裁办公室的夜景空场景，要能给置景当参考。
+```
+
+```text
 （附图）客户给的这张海岛学堂 CG 游戏感太重，帮我写实化成真实航拍质感，构图和建筑布局不能动。
 ```
 
@@ -76,7 +80,7 @@ git clone https://github.com/pencil102411-cell/character-scene-asset-prompts.git
 | [SKILL.md](SKILL.md) | 入口：适用范围、任务路由、核心原则、输出规则、自检 |
 | [agents/openai.yaml](agents/openai.yaml) | Codex 显示名称与默认调用提示 |
 | [references/角色设计.md](references/角色设计.md) | 面部参数库、服装材质叙事、面部与服装痕迹匹配 |
-| [references/场景构建.md](references/场景构建.md) | 空间分层、空气透视、光照时空锚点、环境侵蚀 |
+| [references/场景构建.md](references/场景构建.md) | 氛围图与空间参考图、外景与室内分层、空气透视、自然光与室内光、侵蚀与生活痕迹、场景里的人物 |
 | [references/资产标准化.md](references/资产标准化.md) | 四栏设定卡规范、头身比、去头与跨栏一致性、分栏光照、古装与现代妆发服装参数、表情板、负面词清单 |
 | [references/概念图写实化.md](references/概念图写实化.md) | 参考图诊断、光源是否重做、转换规则与案例 |
 | [references/写实质感控制.md](references/写实质感控制.md) | 皮肤真实感组合、去油、光学瑕疵、真实与脏的分寸 |
@@ -86,6 +90,7 @@ git clone https://github.com/pencil102411-cell/character-scene-asset-prompts.git
 | [templates/角色设定卡模板.md](templates/角色设定卡模板.md) | 古装女性 / 男性四栏设定卡（模板 A / B） |
 | [templates/现代角色设定卡模板.md](templates/现代角色设定卡模板.md) | 现代女性 / 男性四栏设定卡（模板 C / D） |
 | [templates/道具设定卡模板.md](templates/道具设定卡模板.md) | 道具设定卡（模板 E）：左主图 + 右侧特写 |
+| [templates/场景提示词模板.md](templates/场景提示词模板.md) | 外景（模板 F）/ 室内（模板 G）、场景负面词与两个示例 |
 | [templates/写实转化提示词模板.md](templates/写实转化提示词模板.md) | 现状诊断 + 编辑式转化提示词 |
 | [templates/项目看板模板.md](templates/项目看板模板.md) | 项目级视觉决策与实战观察记录 |
 
